@@ -65,6 +65,7 @@ namespace Kreta.Models
             }
         }
 
+        // Két diák megegyezik ha minden adatuk megegyezik.
         public override bool Equals(object obj)
         {
             if (obj is Student)

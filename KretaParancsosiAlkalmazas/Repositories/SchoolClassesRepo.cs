@@ -22,6 +22,11 @@ namespace Kreta.Repositories
             }
         }
 
+        public int GetSchoolClassId(int grade, char gradeType)
+        {
+            return 0;
+        }
+
         public SchoolClassesRepo()
         {
             schoolClasses = new List<SchoolClass>();

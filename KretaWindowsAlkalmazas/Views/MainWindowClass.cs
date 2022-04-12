@@ -25,7 +25,7 @@ namespace Kreta.Views
     /// </summary>
     public partial class MainWindow : Window
     {
-        private ClassViewModel classViewModel = new ClassViewModel();
+        private SchoolClassViewModel classViewModel = new SchoolClassViewModel();
 
         private void miClass_Click(object sender, RoutedEventArgs e)
         {

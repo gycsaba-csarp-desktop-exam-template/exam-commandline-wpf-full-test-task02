@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KretaParancssoriAlkalmazas"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KretaWindowsAlkalmazas", "KretaWindowsAlkalmazas\KretaWindowsAlkalmazas.csproj", "{D16FC18A-B18B-4B55-AB9D-32732F3387D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KretaParancssoriAlkalmazasTests", "KretaParancssoriAlkalmazasTests\KretaParancssoriAlkalmazasTests.csproj", "{5F96B4C2-2A0A-47CE-9B4B-44A6B6F3E713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KretaParancssoriAlkalmazasTests", "KretaParancssoriAlkalmazasTests\KretaParancssoriAlkalmazasTests.csproj", "{5F96B4C2-2A0A-47CE-9B4B-44A6B6F3E713}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{45E6CAB4-9D6B-487E-AA48-915998C74112}"
+	ProjectSection(SolutionItems) = preProject
+		feladat.docx = feladat.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

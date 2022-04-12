@@ -9,20 +9,8 @@ using System.Threading.Tasks;
 namespace Kreta.Models.Tests
 {
     [TestClass()]
-    public class EqualsStudentTests
+    public class StudentEqualTests
     {
-        [TestMethod()]
-        public void EqualsStudentsTest()
-        {
-            Student student1 = new Student(1, "Kis Bence", 3);
-            Student student2 = new Student(1, "Kis Bence", 3);
-
-            bool expected = true;
-
-            bool actual = student1.Equals(student2);
-
-            Assert.AreEqual(expected, actual, "A két diák teljesen megegyezik. Az equals false értéket ad vissza.");
-        }
 
         [TestMethod()]
         public void StudentsNotEqualByIdTest()
@@ -31,7 +19,6 @@ namespace Kreta.Models.Tests
             Student student2 = new Student(2, "Kis Bence", 3);
 
             bool expected = false;
-
             bool actual = student1.Equals(student2);
 
             Assert.AreEqual(expected, actual, "A két diák id-ja nem egyezik meg. Az equals false értéket ad vissza.");

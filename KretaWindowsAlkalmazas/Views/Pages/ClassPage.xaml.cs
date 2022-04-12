@@ -23,8 +23,8 @@ namespace Kreta.Views.Pages
     /// </summary>
     public partial class ClassPage : UserControl
     {
-        private ClassViewModel classViewModel;
-        public ClassPage(ClassViewModel classViewModel)
+        private SchoolClassViewModel classViewModel;
+        public ClassPage(SchoolClassViewModel classViewModel)
         {
             this.classViewModel = classViewModel;
             InitializeComponent();
