@@ -12,6 +12,19 @@ namespace Kreta.Models.Tests
     public class SchollClassToStringTests
     {
         [TestMethod()]
+        public void pont1_IdToStringTest()
+        {
+            int id = 1;
+            int grade = 11;
+            char gradeType = 'c';
+            SchoolClass schoolClass = new SchoolClass(id, grade, gradeType, 1);
+
+            string a = schoolClass.ToString();
+            bool result = schoolClass.ToString().Contains(id.ToString()); ;
+            Assert.IsTrue(result, "Az osztály id nem szerepel a kiemenetben!");
+        }
+
+        [TestMethod()]
         public void pont1_GradeToStringTest()
         {
             int grade = 11;

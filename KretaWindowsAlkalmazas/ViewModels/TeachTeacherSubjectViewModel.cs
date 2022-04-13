@@ -39,15 +39,7 @@ namespace Kreta.ViewModels
         {
             get
             {
-                if (selectedTeacher != null)
-                {
-                    List<Subject> subjectsOfTeachers = teachTeacherSubjectService.GetTeachersSubject(SelectedTeacher.Id);
-                    subjectDatas.Clear();
-                    subjectDatas = new ObservableCollection<Subject>(subjectsOfTeachers);
-                    return subjectDatas;
-                }
-                else
-                    return null;
+                return null;
             }
         }
 

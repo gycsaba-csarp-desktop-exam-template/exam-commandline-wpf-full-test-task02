@@ -23,7 +23,7 @@ namespace Kreta.Repositories
         }
 
         public int GetSchoolClassId(int grade, char gradeType)
-        {
+        {           
             return 0;
         }
 

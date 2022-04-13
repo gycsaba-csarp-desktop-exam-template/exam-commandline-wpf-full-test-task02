@@ -24,11 +24,11 @@ namespace Kreta.Services
             }
         }
 
-        public List<Student> GetStudentOfClass(int classId)
+        public List<Student> GetStudentOfClass(SchoolClass schoolClass)
         {
-            List<Student> result=studentsRepo.Students.FindAll(student => student.SchoolClassId == classId);
-            result.Sort();
-            return result;
+            int schoolClassId = schoolClassesRepo.GetSchoolClassId(schoolClass.Grade, schoolClass.GradeType);
+            // Itt hiányzik a további kód.
+            return null;
         }
 
         public List<Student> GetStudentNoClass()

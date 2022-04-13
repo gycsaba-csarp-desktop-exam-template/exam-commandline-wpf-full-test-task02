@@ -9,11 +9,5 @@
     
     <Grid Margin="30">
         <Label Content="Az iskola tantárgyai:"/>
-        <ListBox Margin="120 5 600 400"
-                 x:Name="lbSubject" 
-                 ItemsSource="{Binding Subjects}">
-        </ListBox>
-
-
     </Grid>
 </UserControl>
